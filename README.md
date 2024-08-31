@@ -24,13 +24,6 @@ step to activate your virtualenv.
 ```
 $ source .venv/bin/activate
 ```
-
-If you are a Windows platform, you would activate the virtualenv like this:
-
-```
-% .venv\Scripts\activate.bat
-```
-
 Once the virtualenv is activated, you can install the required dependencies.
 
 ```
@@ -41,6 +34,9 @@ At this point you can now synthesize the CloudFormation template for this code.
 
 ```
 $ cdk synth
+```
+```
+$ cdk deploy
 ```
 
 To add additional dependencies, for example other CDK libraries, just add
